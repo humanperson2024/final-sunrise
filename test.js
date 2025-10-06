@@ -1,23 +1,40 @@
-const { text } = require("express");
+let num = Math.floor(Math.random() * 3)
+let you = 0
 
-function myFunction() {
-    
-var x = document.getElementById("myText").value;
-document.getElementById("demo").innerHTML = x;
-
-if (num >= 10) { 
-
-    console.log("Your number is large enough"); 
-} else { 
-    console.log("Your number is too small"); 
-} 
+function scissors() {
+you = 0
+console.log(String(you) + "you")
+console.log(String(num) + "answer")
+if (num = 0) {
+    document.getElementById("iknowwhereyoulive").innerHTML = "win!";
+}
+if (you = num) {
+  document.getElementById("iknowwhereyoulive").innerHTML = "draw!";
+}
 }
 
-let num = ("demo") 
+function paper() {
+you = 1
+console.log(String(you) + "you")
+console.log(String(num) + "answer")
+if (num = 1) {
+    document.getElementById("iknowwhereyoulive").innerHTML = "win!";
+}
+if (you = num) {
+  document.getElementById("iknowwhereyoulive").innerHTML = "draw!";
+}
+}
 
-if (num >= 10) { 
-  
-    console.log("Your number is large enough"); 
-} else { 
-    console.log("Your number is too small"); 
-} 
+function rock() {
+you = 2
+console.log(String(you) + "you")
+console.log(String(num) + "answer")
+if (num = 0) {
+    document.getElementById("iknowwhereyoulive").innerHTML = "win!";
+}
+if (you = num) {
+  document.getElementById("iknowwhereyoulive").innerHTML = "draw!";
+}
+}
+
+console.log(you)
