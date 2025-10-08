@@ -1,8 +1,9 @@
 let password = prompt("password or PIN")
 
-if (password = "password") {
+console.log(password)
+
+if (password === "amongus") {
     console.log("access granted")
-}
-else {
-    console.log("wrong password")
+} else {
+    console.log("access denied")
 }
