@@ -37,12 +37,48 @@
     width: 1000px; /* set it to anything */
     text-align: center;
     }   
+    .column{
+        display: flex;
+        align-items: center;
+        float: left;
+        padding-right: 20px;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
     </style>   
 
-    <div class="container" style="background-color: rgb(53, 53, 53); border-radius: 10px;">
-        <a href="index.html"><h1 align="left" style="color: rgb(0, 255, 13);">TheFinalSunrise</h1></a>
-        <div><a style="color: rgb(0, 255, 13);" href="aboutme.html">about me</a></div>
-        <div><a style="color: rgb(0, 255, 13);" href="contacts.html">contact</a></div>
+
+
+    <div class="container" style="background-color: rgb(53, 53, 53); border-radius: 10px; height: 50px;">
+        <a class="column" href="index.html"><h1 align="left" style="color: rgb(0, 255, 13); background-color: aqua;">TheFinalSunrise</h1></a>
+        <ul>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+        </ul>
+        <a class="column" href="index.html"><h1 align="left" style="color: rgb(0, 255, 13); background-color: aqua;">TheFinalSunrise</h1></a>
+        <div class="column"><a style="color: rgb(0, 255, 13); background-color: rgb(255, 0, 0);" href="aboutme.html">about me</a></div>
+        <div class="column"><a style="color: rgb(0, 255, 47); background-color: rgb(255, 0, 0);" href="contacts.html">contact</a></div>
     </div>
 
 </head>
