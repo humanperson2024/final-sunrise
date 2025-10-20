@@ -1,0 +1,36 @@
+.cover:hover {
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.22), 0 6px 16px rgba(0, 0, 0, 0.16);
+    transform: translateY(-6px) scale(1.04) rotate(-1deg);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.cover:hover p {
+    transform: translateY(-6px) scale(1.07) rotate(-2deg);
+}
+
+.cover:hover {
+    transform: scale(1.07) rotate(-2deg);
+}
+
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    border: 5px solid rgb(48, 48, 48);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+container {
+    width: 100%;
+}
