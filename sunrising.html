@@ -86,7 +86,10 @@ ul li a:hover {
 
     <div style="background-color: rgba(255, 153, 0, 0.64); border-radius: 25px;backdrop-filter: blur(5px);"> 
         <h1 align="center">sunrising</h1>
-        <h1 align="center"><img src="photos/sunrising.png" style="border-radius: 50px;"></h1>
+        <h1 align="center" id="sunrising"><img src="photos/sunrising.png" style="border-radius: 50px;"></h1>
+
+        <p align="center"><button onclick="ToggleSunrisingImage()" id="SunrisingImageTypeBtn"></button></p>
+
         <div id="wrapper" id="float" class="collumn" width="200px" style="background-color: rgb(66, 66, 66); border-radius: 10px;">
             <h3 style="color: white;">1. all night</h3>
             <hr style="color: rgb(106, 106, 106);">
@@ -113,6 +116,7 @@ ul li a:hover {
             <h3 style="color: white;">12. dont turn back</h3>
             <hr style="color: rgb(106, 106, 106);">
         </div>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
