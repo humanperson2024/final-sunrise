@@ -1,21 +1,16 @@
-let SunrisingImageType = 0
-
-if (SunrisingImageType === 1) {
-    document.getElementById("SunrisingImageTypeBtn").innerHTML = "disc/cover"
+function sunrisingcover() {
+    document.getElementById('sunrising').src='photos/sunrising.png'
+    console.log("fuckyou0")
 }
-if (SunrisingImageType === 0) {
-    document.getElementById("SunrisingImageTypeBtn").innerHTML = "cover"
+function sunrisingdisc() {
+    document.getElementById('sunrising').src='photos/sunrisingdisc.png'
+    console.log("fuckyou1")
 }
-
-function ToggleSunrisingImage() {
-if (SunrisingImageType === 0) {
-    SunrisingImageType = 1
+function weirdcover() {
+    document.getElementById('sunrising').src='photos/weirdsynth.png'
+    console.log("fuckyou0")
 }
-if (SunrisingImageType === 1) {
-    SunrisingImageType = 0
-}
-}
-
-if (SunrisingImageType === 0) {
-    document.getElementById("SunrisingImageTypeBtn").innerText = "disc"
+function weirddisc() {
+    document.getElementById('sunrising').src='photos/weirdsynthdisc.png'
+    console.log("fuckyou1")
 }
